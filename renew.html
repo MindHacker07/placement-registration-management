@@ -1,0 +1,53 @@
+<html>
+<body>
+
+  <script language="javascript" type="text/javascript">
+  function myFunction() {
+    var x = document.getElementById("fname");
+    x.value = x.value.toUpperCase();
+  }
+    function myfun()
+    {
+      alert("Please use capital letters");
+    }
+
+  </script>
+
+<link rel="stylesheet" href="restyle.css">
+<div class="container">
+<form class="" action="connection1.php"    method="GET">
+<p>Personal Details</p>
+<span id="item1">
+   First Name<input type="text" placeholder="Enter your first Name" name="firstname"   required  id="fname"   onclick="myfun()"  onsubmit="myFunction()">
+
+  Last Name<input type="text" placeholder="Enter your last name " name="lastname" required  >
+
+  Email<input type="text" placeholder="Enter your email address" name="email" required>
+
+ Age<input type="text"  placeholder="Enter your Age"name="age" required>
+
+Contact No<input type="text"  placeholder="Enter your School Board "name="mobile_no" required>
+
+
+Father Name<input type="text" placeholder="Enter your State Name" name="fname" required>
+
+
+ Mother Name<input type="text"  placeholder="Enter your mother Name" name="mname" required>
+
+ Birth Date<input type="date"   name="bdate" required>
+
+
+
+
+
+
+<input type="submit" id="btn" name="" value="next">
+</span>
+
+
+
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+box-sizing: border-box;
+
+
+}
+p{
+font-family:Apple Chancery, cursive;
+  text-align:justify;
+  /* font-family: 'Lato', sans-serif; */
+
+}
+.all-img{
+display: flex;
+flex-direction: column;
+margin-left: 100px;
+margin-right: 100px;
+
+}
+.con {
+  display:flex;
+}
+.about-us{
+      font-family:Apple Chancery, cursive;
+        font-size: 20px;
+  background-color:#bce8f1;
+  text-align: center;
+border: 1px solid black;
+display:flex;
+flex-direction: row;
+width: 650px;
+height: 100px;
+margin: 2px auto;
+padding: 10px;
+border-radius: 15px;
+
+}
+.address{
+    font-family:Apple Chancery, cursive;
+    font-size: 20px;
+}
+.box1{
+  height: 500px;
+    border: 1px solid red;
+}
+.con-item {
+  border: 1px solid #eee;
+    padding: 10px;
+}
+#clg-img{
+  width: 50%;
+margin-left: 270px;
+padding: 20px;
+
+}
+.SEAE{
+  border: 2px solid #eee;
+  margin-left: 350px;
+  margin-right: 300px;
+  margin-top: 10px;
+  text-align:center;
+  height: 30px;
+  padding: 30px;
+  border-radius: 10px;
+  font-family:Apple Chancery, cursive;
+  font-size: 20px;
+
+
+}
+.img img{
+border-radius: 10px;
+width: 100%;
+padding: 10px;
+  margin: 0;
+}
+h3,h4{
+  color:black;
+  font-family:Bookman, URW Bookman L, serif;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+
+}
+.ab{
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap:10px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+header{
+
+  background:	mediumaquamarine ;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 150px;
+  width: 100%;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+
+}
+#logo{
+  margin:40px;
+  font-size: 30px;
+  color:black;
+}
+li a{
+  font-family: cursive;
+  font-size: 20px;
+
+}
+a{
+  text-decoration: none;
+    color:white;
+}
+#menu ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+justify-content:space-around;
+  /* margin-top:100px; */
+
+  background-color: black;
+  /* border-radius: 10px; */
+height: 30px;
+
+}
+a:hover{
+  color:green;
+
+}
